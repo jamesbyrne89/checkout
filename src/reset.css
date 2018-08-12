@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #1a1a1a;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #1a1a1a;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #1a1a1a;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #1a1a1a;
+}
+
+* {
+    box-sizing: border-box;
+}
